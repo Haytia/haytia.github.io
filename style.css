@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    font-size: 16px
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#nav-bar, ul, li{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-content: space-around;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    transition: 0.2s;
+}
+li:hover {
+    transform: scale(1.1);
+}
