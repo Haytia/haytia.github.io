@@ -48,6 +48,12 @@ li:hover {
 #poster {
     max-width: 100%;
 }
+#name {
+    color: goldenrod;
+}
+#ilg {
+    border: 2px solid goldenrod;
+}
 #spacemission {
     margin-top: 1rem;
     text-align: justify;
