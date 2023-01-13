@@ -23,7 +23,27 @@
     flex-wrap: wrap;
     gap: 1.5rem;
     transition: 0.2s;
+    margin-bottom: 3rem;
 }
 li:hover {
     transform: scale(1.1);
+}
+.poster-section {
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#poster {
+    max-width: 100%;
+}
+#text {
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    word-break: keep-all;
 }
