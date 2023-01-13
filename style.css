@@ -28,13 +28,22 @@
 li:hover {
     transform: scale(1.1);
 }
-.poster-section {
+.poster-section, .women-section {
     text-align: center;
     flex-direction: column;
     align-content: center;
     align-items:center;
     justify-content: center;
     flex-wrap: wrap;
+}
+#description {
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    word-break: keep-all;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
 }
 #poster {
     max-width: 100%;
@@ -45,5 +54,24 @@ li:hover {
     font-size: 0.8rem;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5rem;
     word-break: keep-all;
+}
+#presentation-title {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.line {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 80%;
+    margin-bottom: 25rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
